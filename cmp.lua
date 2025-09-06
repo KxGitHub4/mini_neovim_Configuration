@@ -1,6 +1,6 @@
 return {
     {
-        "hrsh7th/nvim-cmp",                 -- 主补全插
+        "hrsh7th/nvim-cmp",                 --cmp core plugin
         dependencies = {
             "hrsh7th/cmp-nvim-lsp",         -- LSP 源
             "hrsh7th/cmp-buffer",           -- Buffer 源
