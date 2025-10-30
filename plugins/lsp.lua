@@ -13,9 +13,7 @@ return {
                 Info = "",
                 Hint = "",
             }
-            -- 定义标记符号
-            for type, icon in pairs(signs) do
-                vim.fn.sign_define("DiagnosticSign" .. type, {
+            -- 定义标记符号 for type, icon in pairs(signs) do vim.fn.sign_define("DiagnosticSign" .. type, {
                     text = icon,                       -- 使用图标作为符号
                     texthl = "DiagnosticSign" .. type, -- 设置高亮
                     numhl = "DiagnosticSign" .. type,  -- 设置行号高亮
@@ -34,5 +32,5 @@ return {
                 update_in_insert = false,
             })
         end,
-    },
-}
+    }
+
