@@ -16,6 +16,8 @@ return {
 				javascript = { "prettierd", "prettier", stop_after_first = true },
 				-- yamllinter
 				yaml = { "yamlfix", "yamlfmt" },
+				-- fixjson
+				json = { "fixjson" },
 			},
 			format_on_save = {
 				-- These options will be passed to conform.format()
