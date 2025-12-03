@@ -6,18 +6,29 @@ return {
 	-- dependencies = { "nvim-mini/mini.icons" },
 	keys = {
 		{
-			"<leader>ff",
-			function()
-				require("fzf-lua").files()
-			end,
-			{ desc = "Fuzzy find files" },
+			"<leader>fm",
+			"<cmd>FzfLua marks<cr>",
+			desc = "Fuzzy all marks",
 		},
 		{
-			"<leader>fg",
-			function()
-				require("fzf-lua").live_grep()
-			end,
-			{ desc = "Fuzzy find in files" },
+			"<leader>ff",
+			"<cmd>FzfLua files<cr>",
+			desc = "Fuzzy find files",
+		},
+		{
+			"<leader>fl",
+			"<cmd>FzfLua live_grep<cr>",
+			desc = "Fuzzy find in files",
+		},
+		{
+			"<leader>fr",
+			"<cmd>FzfLua registers<cr>",
+			desc = "Fuzzy find in register",
+		},
+		{
+			"<leader>fb",
+			"<cmd>FzfLua buffers<cr>",
+			desc = "Fuzzy find buffers",
 		},
 	},
 	opts = {},
@@ -42,9 +53,6 @@ return {
 				},
 			},
 			-- Example: Use ripgrep for file searching
-			files = {
-				cmd = "rg --files --hidden --glob !.git",
-			},
 		})
 	end,
 }
