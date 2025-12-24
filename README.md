@@ -1,16 +1,15 @@
 # *mini_neovimConfiguration*
-## lsp plugins
-### mason
-#### use mason to manage lsp language service
-### mason-lspconfig
-#### auto configure lsp actions
-### lsp
-#### control lsp service actions
-### cmp
-#### This is a auto code completion tools
+## mason
+> Mason file contains three plugins 
+1. mason 
+2. mason-lspconfig
+3. fidget
+## lsp
+>  nvim-lsp a plugin for managing diagnostic and lsp actions control
+## cmp
+> This is a auto code completion tools
 ## autopairs.lua
 ## conform.lua
-## fidget.lua
 ## flash.lua
 ## fzf.lua
 ## gitlines.lua
@@ -18,7 +17,6 @@
 ## lazy_git.lua
 ## lualine.lua
 ## marks.lua
-## mason.lua
 ## miniAi.lua
 ## nvim-dap.lua
 ## oil.lua

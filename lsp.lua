@@ -6,6 +6,9 @@ return {
 			vim.lsp.enable("lua_ls")
 			vim.lsp.enable("pyright")
 			vim.lsp.enable("ts_ls")
+			vim.lsp.enable("html-lsp")
+			vim.lsp.enable("eslint")
+			vim.lsp.enable("vtsls")
 			-- 配置诊断标记符号
 			local signs = {
 				Error = "",
