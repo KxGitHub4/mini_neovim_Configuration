@@ -20,6 +20,17 @@ return {
 			require("mason-lspconfig").setup({
 				automatic_enable = true,
 			})
+			vim.lsp.config["lua_ls"] = {
+				settings = {
+					diagonstics = {
+						globals = { "vim", "Snacks" },
+					},
+					workspace = {
+						libraray = vim.api.nvim_get_runtime_file("", true),
+						checkThirdParty = false,
+					},
+				},
+			}
 		end,
 	},
 	{

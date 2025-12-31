@@ -9,6 +9,7 @@ return {
 			vim.lsp.enable("html-lsp")
 			vim.lsp.enable("eslint")
 			vim.lsp.enable("vtsls")
+			vim.lsp.enable("emmet_ls")
 			-- 配置诊断标记符号
 			local signs = {
 				Error = "",
