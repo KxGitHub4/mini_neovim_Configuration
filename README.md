@@ -1,29 +1,39 @@
 # *mini_neovimConfiguration*
-## mason
-> Mason file contains three plugins 
-1. mason 
-2. mason-lspconfig
-3. fidget
-## lsp
->  nvim-lsp a plugin for managing diagnostic and lsp actions control
-## cmp
-> This is a auto code completion tools
-## autopairs.lua
-## conform.lua
-## flash.lua
-## fzf.lua
-## gitlines.lua
-## indentblank.lua
-## lazy_git.lua
-## lualine.lua
-## marks.lua
-## miniAi.lua
-## nvim-dap.lua
-## oil.lua
-## outline.lua
-## render-markdown.lua
-## smear-cursor.lua
-## tokyonight.lua
-## transparent.lua
-## which_keys.lua
-## zen-mode.lua
+|plugins file| description|
+|---|---|
+|mason|mason plugin for |
+|---|---|
+|lsp| language server protocol|
+|---|---|
+|cmp|auto compelete server|
+|---|---|
+|conform.lua| auto format plugins|
+|---|---|
+|flash.lua|quick jump to |
+|---|---|
+|gitlines.lua|git lines|
+|---|---|
+|indentblank.lua|indent plugins|
+|---|---|
+|lualine.lua|status line|
+|---|---|
+|marks.lua|marks for quick jump|
+|---|---|
+|miniAi.lua|paris tools|
+|---|---|
+|nvim-dap.lua| dap tools|
+|---|---|
+|outline.lua| outline summary|
+|---|---|
+|render-markdown.lua| markdown preview tools|
+|---|---|
+|tokyonight.lua| tokyo night theme|
+|---|---|
+|which_keys.lua|suggestion keys|
+|---|---|
+|zen-mode.lua|zen mode|
+|---|---|
+|telescope.lua|telescope plugins|
+|---|---|
+|opecode.lua|a ai tools|
+|---|---|
